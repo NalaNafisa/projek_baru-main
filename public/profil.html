@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mockup Fitur Profil Pengguna</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <style>
+        .popover {
+            width: 375px;
+            height: 562.01px;
+            top: 159.77px;
+        }
+        .rounded-top {
+            border-top-left-radius: 20px;
+            border-top-right-radius: 20px;
+        }
+        .ellipse {
+            width: 100px;
+            height: 100px;
+            border-radius: 50%;
+            position: absolute;
+            top: -50px; /* Menempatkan elips di atas dan melewati setengahnya */
+            left: 50%;
+            transform: translateX(-50%);
+            background-color: #e2e8f0; /* Warna background sementara, bisa diganti dengan gambar profil */
+        }
+    </style>
+</head>
+<body class="bg-green-600 flex items-center justify-center min-h-screen relative">
+    <div class="popover bg-white rounded-top shadow-lg p-8 absolute left-1/2 transform -translate-x-1/2">
+        <div class="ellipse flex items-center justify-center">
+            <img src="https://i.pinimg.com/564x/b3/7a/61/b37a61f03db04b60957b67db800cb62d.jpg" alt="User Avatar" class="w-full h-full rounded-full">
+        </div>
+        <div class="mt-8 space-y-4 ">
+            <div class="flex justify-between items-center w-327 h-36 border-b border-gray-300 py-2 ">
+                <p class="text-gray-700" style="font-family: 'Poppins', sans-serif;">Kata Sandi</p>
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 text-gray-700 mb-2" viewBox="0 0 20 20" fill="currentColor">
+                    <path fill-rule="evenodd" d="M10.293 3.293a1 1 0 011.414 0L16.707 8.293a1 1 0 010 1.414l-5 5a1 1 0 01-1.414-1.414L13.586 10H4a1 1 0 110-2h9.586l-3.293-3.293a1 1 0 010-1.414z" clip-rule="evenodd" />
+                </svg>
+            </div>
+            <div class="mt-8 space-y-4 ">
+                <div class="flex justify-between items-center w-327 h-36 border-b border-gray-300 py-2 ">
+                    <p class="text-gray-700" style="font-family: 'Poppins', sans-serif;">Kata Sandi</p>
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 text-gray-700 mb-4" viewBox="0 0 20 20" fill="currentColor">
+                        <path fill-rule="evenodd" d="M10.293 3.293a1 1 0 011.414 0L16.707 8.293a1 1 0 010 1.414l-5 5a1 1 0 01-1.414-1.414L13.586 10H4a1 1 0 110-2h9.586l-3.293-3.293a1 1 0 010-1.414z" clip-rule="evenodd" />
+                    </svg>
+                </div>
+        
+    </div>
+</body>
+</html>

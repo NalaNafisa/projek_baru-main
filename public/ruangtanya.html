@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HamaPetik</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500;600&display=swap');
+        .font-poppins {
+            font-family: 'Poppins', sans-serif;
+        }
+    </style>
+</head>
+
+<body class="bg-gray-100 p-6">
+
+    <div class="max-w-md mx-auto">
+        <div class="flex items-center justify-center mb-4">
+            <h1 class="text-2xl font-extrabold font-post-no-bills-jaffna text-black">HamaPetik</h1>
+            <div class="ml-2">
+                <img src="https://img.freepik.com/free-vector/vector-big-green-leaves-tropical-monstera-plant-isolated-white-background_1284-48407.jpg?w=740&t=st=1716787126~exp=1716787726~hmac=8bd2707f5222c140aab0bc6998feaf111b9177de99d3a3c9210a058872c6936c" alt="Plant" class="w-10 h-10 object-cover rounded-full">
+            </div>
+        </div>
+       
+        <div class="bg-white shadow-md rounded-lg overflow-hidden mt-6">
+            <div class="bg-gray-200 text-gray-700 py-3 px-4">
+                <h2 class="text-lg font-semibold">Tanya Pakar</h2>
+            </div>
+            <div class="p-4">
+                <label for="question" class="block text-sm font-medium text-gray-700">Pertanyaan Anda</label>
+                <textarea id="question" name="question" rows="3" class="mt-1 block w-full border-gray-300 rounded-md shadow-sm focus:ring-indigo-500 focus:border-indigo-500 sm:text-sm"></textarea>
+            </div>
+            <div class="bg-gray-200 text-gray-700 py-3 px-4">
+                <h3 class="text-md font-medium">Pilih Tanaman</h3>
+            </div>
+            <div class="p-4">
+                <select id="plant" name="plant" class="block w-full p-2 border border-gray-300 rounded-md shadow-sm focus:ring-indigo-500 focus:border-indigo-500 sm:text-sm">
+                    <option value="" disabled selected>Pilih tanaman Anda</option>
+                    <option value="Tomat">Tomat</option>
+                    <option value="Cabai">Cabai</option>
+                    <option value="Kentang">Kentang</option>
+                    <option value="Padi">Padi</option>
+                </select>
+            </div>
+            <div class="p-4">
+                <button type="submit" class="bg-indigo-500 text-white px-4 py-2 rounded-md hover:bg-indigo-600">Tanyakan</button>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>
